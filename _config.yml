@@ -1,6 +1,5 @@
 title: Penta Ham Blog
-description: >-
-特に何を書くかも決まっていないし...適当にいろいろなことを書きます()
+description: "特に何を書くかも決まっていないし...適当にいろいろなことを書きます()"
 minimal_mistakes_skin: default
 search: true
 
@@ -24,16 +23,15 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Penta Ham"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "開発履歴を書いてます!"
+  name: "Penta Ham"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "開発履歴を書いてます!"
   links: []
 
 footer:
   links: []
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -45,7 +43,6 @@ defaults:
       share: false
       related: true
 
-  # _pages
   - scope:
       path: "_pages"
       type: pages
